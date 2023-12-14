@@ -1,0 +1,40 @@
+BUGS: 
+
+Ao implementar a logica de verificaçao para impedir pessoas de acessarem o enpoint ADMIN o usuario esta sendo redirecionado para a HOME mesmo LOGANDO com suas credenciais. Entender o pq disso.
+
+
+
+________________
+***NEXT STEPS***
+-Estamos na page 16 do project TODOLIST(FIREBASE)
+-Agora devemos implementar a funcionalidade de CADASTRAR um USUARIO em nossa page REGISTER
+
+
+rodar project BACKEND:
+npm run start:dev
+
+rodar project FRONTEND no path: frontend/app:
+npm start
+
+
+****COMMANDS USED BACKEND:****
+------------------------------------------------------------------------------------------
+npm init
+EXPRESS= npm i express
+MONGOOSE= npm i mongoose
+MONGODB = npm install mongodb   
+DOTENV = npm i dotenv
+CORS = npm i cors
+NODEMON = npm i nodemon --save-dev (Instalando em ambiente DEV, é mais seguro)
+
+Apos instalar em ambiente DEV devemos criar um script no package.json para ele rodar: 
+
+"scripts" : {
+    "start:dev": "nodemon index.js"
+}
+--------------------------------------------------------------------------------------------
+****COMMANDS USED FRONTEND:****
+npx create-react-app app
+npm i axios
+npm i react-router-dom
+npm i styled-components
