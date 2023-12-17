@@ -1,13 +1,10 @@
 BUGS: 
 
-Ao implementar a logica de verificaçao para impedir pessoas de acessarem o enpoint ADMIN o usuario esta sendo redirecionado para a HOME mesmo LOGANDO com suas credenciais. Entender o pq disso.
-
-
-
+Ver resposta GPT. 
+Problema pode estar no TOKEN
 ________________
 ***NEXT STEPS***
 -Estamos na page 16 do project TODOLIST(FIREBASE)
--Agora devemos implementar a funcionalidade de CADASTRAR um USUARIO em nossa page REGISTER
 
 
 rodar project BACKEND:
